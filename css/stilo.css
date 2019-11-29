@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background: aqua;
+}
+div.avatar {
+    float: left;
+    height: 250px;
+    width: 250px;
+    border: 30px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+}
+h1{
+    text-align: center;
+}
+div.letras{
+    text-align: center;
+    color:black ;
+    margin-top: 120px 120px 120px 120px;
+    border: 50px;
+}
+div.card{
+    background: chartreuse;
+}
+footer{
+    width: 100%;
+    color: white;
+    padding: 20px;
+}
+.container-footer-all{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    background: rgba(2, 19, 255, 0.452);
+    padding: 40px;
+}
+.container-body{
+    justify-content: space-between;
+    padding: 25px;
+    display: flex;
+}
+.container-body h1{
+    color: red;
+}
+.colum1{
+    max-width: 400px;
+}
+.colum1 h1{
+    font-size: 25px;
+}
+.colum1 p{
+    font-size: 14px;
+}
+.colum2{
+    max-width: 400px;
+}
+.colum2 h1{
+    font-size: 30px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+.row img{
+    width: 35px;
+    height: 35px;
+}
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.colum3{
+    max-width: 400px;
+}
+.colum3 h1{
+    font-size: 25px;
+}
+.row2{
+    margin-top: 20px;
+}
+.row2 img{
+    width: 33px;
+    height: 33px;
+}
+.row2 label{
+    margin-top: 10px;
+    margin-left: 20px;
+    max-width: 150px;
+}
+.container-footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+@media screen and (max-width: 1100px){
+    .container-body{
+        flex-wrap: wrap;
+    }
+    .colum2,.colum3{
+        margin-top: 40px;
+    }
+}
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    color: red;
+    text-align: center;
+    padding: 14px;
+}
+.contenedor .form .form-header .form-title span{
+    color: #ff851b;
+}
+.contenedor .form{
+    background:rgba(19, 16, 16, 0.7);
+    width: 98%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.contenedor .form .form-label{
+    display: block;
+    color: #ff851b;
+    font-size: 16px;
+    font-family: Roboto;
+    position: relative;
+}
+.contenedor .form .form-input, .form-textarea{
+    background:rgba(0,0,0,.7);
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ff851b;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto;
+}
+.contenedor .form .form-textarea{
+    resize: vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor .form .btn-submit{
+    width: 100%;
+    font-family: Roboto;
+    outline: none;
+    background: #ff851b;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.contenedor .form .btn-submit:hover{
+    background: #f29718;
+}
